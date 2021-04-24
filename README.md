@@ -12,80 +12,28 @@ However, while the data has been regularly updated, the team has yet to implemen
 
 ## Task
 
-**Data found in the Citi Bike Trip History Logs was aggregated to find unexpected phenomena.** 
+**Data found in the Citi Bike Trip History Logs was aggregated to find unexpected phenomena. (Jersey City Data in 2016 and 2017)** 
 
-* How many trips have been recorded total during the chosen period?
+Analyzation of Trip History logs revealed: 
 
-* By what percentage has total ridership grown?
+- Most popular start and end station in dataset: Grove St PATH
 
-* How has the proportion of short-term customers and annual subscribers changed?
+- Bike IDs 24519 and 24711 had outlier trip duration (189 days and 55 days) Most likely these trip durations were recording trips while not in use. Possible explanations: lost stolen bikes while the trip is not ended.
 
-* What are the peak hours in which bikes are used during summer months?
+- Weekends observed longer duration trips, while weekdays had more trips Weekends average trip duration: around 12 minutes. Weekdays total trips between ~75,000 to ~85,000 vs ~50,000 on Saturdays and Sundays.
 
-* What are the peak hours in which bikes are used during winter months?
+- Peak usage (trip count) occurs at 8:00 AM (first peak) and 6:00 PM (second peak) on weekdays. Peak usage likely due to work related rush hour times, commute to and from work.
 
-* Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
+- Majority of riders are male. Majority of all riders age groups are late twenties and early thirties
 
-* Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
+- Most common rider age 31. Marketing demographic of users in this date range, male working professional in early 30s. Possible opportunities for increasing user base: marketing to females in the same age group.
 
-* Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
+- Across all ages, most trips are under a mile. A few high averages for rides in uncommon age groups. Approximate trip distance calculated (as the crow flies between start latitude/longitude and end latitude/longitude).
 
-* Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
+- Majority of users are subscriber user type. Peak months for rider usage (August & September 2016, August & October 2017). Lowest recorded trips during January 2016 (7,177).
 
-* Today, what is the gender breakdown of active participants (Male v. Female)?
+- Ending Station Grove St PATH recorded more ending trips (~61K starting trips, ~80K ending trips), more often users were traveling from other starting stations to Grove St PATH. 
 
-* How effective has gender outreach been in increasing female ridership over the timespan?
+- On the ending station map, there are many stations that have only one recorded trip starting in Jersey City and ending in Manhattan, suggesting a flow of unilateral bike movement from Jersey City to Manhattan.
 
-* How does the average trip duration change by age?
-
-* What is the average distance in miles that a bike is ridden?
-
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-* How variable is the utilization by bike ID?
-
-**Next, as a chronic over-achiever:**
-
-* Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-* The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring. 
-
-**City officials would also like to see one of the following visualizations:**
-
-* **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-* The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-**Finally, create your final presentation**
-
-* Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-* This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing. 
-
-## Considerations
-
-Remember, the people reading your analysis will **NOT** be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes. 
-
-## Submission 
-
-Your final submission should include:
-
-* A link to your Tableau Public workbook that includes: 
-  * 4-10 Total "Phenomenon" Visualizations 
-  * 2 Dashboards
-  * 1 City Official Map
-  * 1 Story 
-* A text or markdown file with your analysis on the phenomenons you uncovered from the data.
-
-## Sharing Your Work
-
-* In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them.
-
-* To save your workbook as a .twbx file, you will just need to go to `File`, then `Save to Tableau Public...`.
-
-* Please create an account if you do not have one already.
-
-* Once you have created an account and published your work to Tableau Public, go to the visualization in Tableau Public and find the `Download` button at the bottom right hand corner.
-
-* Please download the Tableau Public file to your computer and submit this to your TA's.
-
+* How many trips have been recorded total during the chosen period? 502,638 (count based on cleaned data).
