@@ -1,5 +1,7 @@
 # Tableau Homework - Citi Bike Analytics
 
+Link to Tableau Public [Citi Bike Dashboard (Jersey City 2016-2017)]( https://public.tableau.com/profile/melissa.monroe#!/vizhome/citibike_16192476040720/DashboardSummary) 
+
 ## Background
 
 ![Citi-Bikes](images/citibike.jpg)
