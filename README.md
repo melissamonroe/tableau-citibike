@@ -19,6 +19,10 @@ However, while the data has been regularly updated, the team has yet to implemen
 
 **Data found in the Citi Bike Trip History Logs was aggregated to find unexpected phenomena. (Jersey City Data in 2016 and 2017)** 
 
+![Dashboard1](images/dashboard1.png)
+
+![Dashboard2](images/dashboard2.png)
+
 Analyzation of Trip History logs revealed: 
 
 - Most popular start and end station in dataset: Grove St PATH
